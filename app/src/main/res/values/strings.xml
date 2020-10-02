@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">E-book library NITW</string>
+    <string name="student_login">Student Login</string>
+    <string name="librarian_login">Librarian Login</string>
+</resources>
