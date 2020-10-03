@@ -10,30 +10,29 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class LibrarianActivity2 extends AppCompatActivity {
-
     String[] courses,branch,sem,sub;
-    Button cBtn,bBtn,semBtn,subBtn;
-    TextView cTextView,bTextView,semTextView,subTextView;
+    Button c1Btn,bBtn,semBtn,subBtn;
+    TextView c1TextView,bTextView,semTextView,subTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_librarian2);
 
-        cBtn = findViewById(R.id.course1);
-        cTextView = findViewById(R.id.course);
+        c1Btn = findViewById(R.id.course1);
+        c1TextView = findViewById(R.id.course);
 
-        cBtn.setOnClickListener(new View.OnClickListener() {
+        c1Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Create list of course
                 courses = new String[]{"B.TECH","M.TECH","MCA","MSC"};
                 AlertDialog.Builder mBuilder = new AlertDialog.Builder(LibrarianActivity2.this);
-                mBuilder.setTitle("Choose an course");
+                mBuilder.setTitle("Choose a course");
                 mBuilder.setIcon(R.drawable.icon_foreground);
                 mBuilder.setSingleChoiceItems(courses, -1, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        cTextView.setText(courses[which]);
+                        c1TextView.setText(courses[which]);
                         dialog.dismiss();
                     }
                 });
@@ -58,7 +57,7 @@ public class LibrarianActivity2 extends AppCompatActivity {
                 // Create list of course
                 branch = new String[]{"CSE","ECE","EEE","Civil","Meta","BioTech","mathematics","chemical"};
                 AlertDialog.Builder bBuilder = new AlertDialog.Builder(LibrarianActivity2.this);
-                bBuilder.setTitle("Choose an Branch");
+                bBuilder.setTitle("Choose a Branch");
                 bBuilder.setIcon(R.drawable.icon_foreground);
                 bBuilder.setSingleChoiceItems(branch, -1, new DialogInterface.OnClickListener() {
                     @Override
@@ -88,7 +87,7 @@ public class LibrarianActivity2 extends AppCompatActivity {
                 // Create list of course
                 sem = new String[]{"1","2","3","4","5","6","7","8"};
                 AlertDialog.Builder semBuilder = new AlertDialog.Builder(LibrarianActivity2.this);
-                semBuilder.setTitle("Choose an Semester");
+                semBuilder.setTitle("Choose a Semester");
                 semBuilder.setIcon(R.drawable.icon_foreground);
                 semBuilder.setSingleChoiceItems(sem, -1, new DialogInterface.OnClickListener() {
                     @Override
@@ -118,7 +117,7 @@ public class LibrarianActivity2 extends AppCompatActivity {
                 // Create list of course
                 sub = new String[]{"LICA","AP","MC","CMOS","CA","ADC"};
                 AlertDialog.Builder mBuilder = new AlertDialog.Builder(LibrarianActivity2.this);
-                mBuilder.setTitle("Choose an Subject");
+                mBuilder.setTitle("Choose a Subject");
                 mBuilder.setIcon(R.drawable.icon_foreground);
                 mBuilder.setSingleChoiceItems(sub, -1, new DialogInterface.OnClickListener() {
                     @Override

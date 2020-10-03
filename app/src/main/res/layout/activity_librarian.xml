@@ -96,9 +96,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@android:color/holo_orange_dark"
-            android:text="sign in"
+            android:text="log in"
             android:textColor="@android:color/white"
-            android:id="@+id/sign_in2">
+            android:id="@+id/log_in">
 
         </Button>
     </LinearLayout>

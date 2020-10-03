@@ -14,7 +14,7 @@ public class LibrarianActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_librarian);
 
-        Button button = (Button) findViewById(R.id.sign_in2);
+        Button button = (Button) findViewById(R.id.log_in);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
