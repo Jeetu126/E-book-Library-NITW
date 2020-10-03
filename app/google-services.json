@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "8437224779",
+    "firebase_url": "https://e-book-library-nitw.firebaseio.com",
+    "project_id": "e-book-library-nitw",
+    "storage_bucket": "e-book-library-nitw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8437224779:android:a48336500a4bedb078c4ce",
+        "android_client_info": {
+          "package_name": "com.jeetu.e_booklibrarynitw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8437224779-27r3i1k54kfmh1j4hjc29o3ol1qu9cvr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jeetu.e_booklibrarynitw",
+            "certificate_hash": "b3f55f8ae122c5d7285365b7a3e72a3b49f2e87e"
+          }
+        },
+        {
+          "client_id": "8437224779-1h5n2ikir21hfv54ppd8v3ltogk86toj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoL4h3kz4vmROZjDsM5o5KJbt5ahx84YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8437224779-1h5n2ikir21hfv54ppd8v3ltogk86toj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

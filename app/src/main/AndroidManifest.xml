@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".uploadebook"></activity>
+        <activity android:name=".downloadActivity"></activity>
+        <activity android:name=".uploadebook" />
         <activity android:name=".LibrarianActivity2" />
         <activity android:name=".StudentActivity2" />
         <activity android:name=".LibrarianActivity" />
