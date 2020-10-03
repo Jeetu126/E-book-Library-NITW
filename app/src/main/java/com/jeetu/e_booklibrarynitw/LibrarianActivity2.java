@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -135,6 +136,16 @@ public class LibrarianActivity2 extends AppCompatActivity {
                 // show alert dialog
                 AlertDialog mDialog = mBuilder.create();
                 mDialog.show();
+            }
+        });
+
+        Button button = (Button) findViewById(R.id.add_book);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(LibrarianActivity2.this,uploadebook.class);
+                startActivity(i);
             }
         });
     }

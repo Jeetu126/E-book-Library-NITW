@@ -141,36 +141,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:orientation="horizontal"
-            android:padding="5dp">
 
-            <EditText
-                android:id="@+id/file"
-                android:layout_width="229dp"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#00000000"
-                android:hint="Enter file name"
-                android:textColor="@android:color/black"
-                android:textColorHint="@android:color/black">
-
-            </EditText>
-
-            <Button
-                android:id="@+id/upload1"
-                android:layout_width="121dp"
-                android:layout_height="wrap_content"
-                android:background="@android:color/holo_blue_dark"
-                android:text="upload"
-                android:textColor="@android:color/white"
-                android:textStyle="bold">
-
-            </Button>
-
-        </LinearLayout>
 
         <Button
             android:layout_width="327dp"
@@ -178,10 +149,13 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="70dp"
             android:layout_marginRight="20dp"
+            android:id="@+id/add_book"
             android:background="@android:color/holo_orange_dark"
             android:text="add e-book">
 
         </Button>
+
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
