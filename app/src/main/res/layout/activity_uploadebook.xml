@@ -24,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="file name"
+
             android:textColor="@android:color/white"
             android:textStyle="bold"
             android:textSize="30sp"
@@ -39,6 +40,7 @@
             android:layout_height="wrap_content"
             android:hint="Enter file name"
             android:textSize="22sp"
+            android:id="@+id/txt_pdfname"
             android:layout_marginTop="50dp">
 
         </EditText>
@@ -49,6 +51,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:text="upload"
+            android:id="@+id/btn_upload"
             android:layout_marginTop="30dp"
             android:background="@android:color/holo_orange_dark"
             android:textColor="@android:color/white">
